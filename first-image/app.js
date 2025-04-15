@@ -4,11 +4,11 @@ const app = express();
 const PORT = 3000;
 
 
-app.get('/',(res, req) => {
-    res.send('Hello world !')
+app.get('/',(req, res) => {
+    res.send('Good girl !')
 });
 
 app.listen(PORT, () => {
-    console.log(`server is runninf on http://locahost:${PORT}`)
+    console.log(`server is running on http://locahost:${PORT}`)
 });
 
